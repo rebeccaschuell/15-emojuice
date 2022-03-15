@@ -78,21 +78,25 @@ h2 {
 width: 80px;
 }
 
+article {
+  border-radius: 22px;
+  padding-left: 38px;
+  padding-right: 38px;
+  padding-top: 38px;
+  padding-bottom: 32px;
+  margin-bottom: 44px;
+}
+
 article a {
   color: black;
   font-family: 'Maven Pro', sans-serif;
   font-weight: bold;
   font-size: 14px;
-  padding-left: 38px;
-  padding-right: 38px;
-  padding-top: 38px;
-  padding-bottom: 32px;
 }
 
 article h1 {
   font-family: 'Sriracha', cursive;
   font-size: 30px;
-}
 }
 
 .banana-section {
@@ -113,7 +117,11 @@ article h1 {
   background-color: #e2a2b1;
 }
 
-
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 
 /* font-family: 'Maven Pro', sans-serif; */
 /* font-family: 'Quattrocento', serif; */
