@@ -1,0 +1,36 @@
+.site-header {
+  background-image: url(../img/header_photo.webp);
+  padding-top: 28px;
+  padding-bottom: 185px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-top: 8px, solid, #7db96f;
+
+}
+
+header div {
+  background-color: white;
+  margin: 30px;
+  padding-top: ;
+  padding-bottom: ;
+  padding-left: ;
+  padding-right: ;
+
+}
+header p {
+  color: #7db96f;
+}
+.button {
+  background-color: #7db96f;
+  color: white;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 14px;
+  border-radius: 15px;
+  
+}
+
+.button a {
+  text-decoration: none;
+}
