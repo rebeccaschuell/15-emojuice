@@ -34,3 +34,14 @@ header p {
 .button a {
   text-decoration: none;
 }
+
+.fruits-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.fruits-container img {
+  width: 28px;
+  height: auto;
+}
