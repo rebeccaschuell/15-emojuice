@@ -1,24 +1,39 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
 .site-header {
   background-image: url(../img/header_photo.webp);
+  border-top: 8px, solid, #7db96f;
   padding-top: 28px;
   padding-bottom: 185px;
   padding-left: 30px;
   padding-right: 30px;
-  border-top: 8px, solid, #7db96f;
-
+  margin-bottom: 28px;
+  text-align: center;
 }
 
 header div {
-  background-color: white;
+  background-color: #ffffffdd;
   margin: 30px;
-  padding-top: ;
-  padding-bottom: ;
-  padding-left: ;
-  padding-right: ;
-
+  padding-top: 28px;
+  padding-bottom: 28px;
+  padding-left: 38px;
+  padding-right: 38px;
 }
+
+header img {
+  padding-bottom: 30px;
+}
+
 header p {
   color: #7db96f;
+  margin: 0px;
 }
 .button {
   background-color: #7db96f;
@@ -28,7 +43,6 @@ header p {
   padding-right: 20px;
   padding-top: 14px;
   border-radius: 15px;
-  
 }
 
 .button a {
@@ -45,3 +59,13 @@ header p {
   width: 28px;
   height: auto;
 }
+
+p {
+  font-family: 'Quattrocento', serif;
+  font-size: 16px;
+}
+
+
+/* font-family: 'Maven Pro', sans-serif; */
+/* font-family: 'Quattrocento', serif; */
+/* font-family: 'Sriracha', cursive; */
