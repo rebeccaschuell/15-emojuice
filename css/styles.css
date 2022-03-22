@@ -76,6 +76,7 @@ header p {
 .fruits-container img {
   width: 28px;
   height: auto;
+  margin-bottom: 98px;
 }
 
 p {
@@ -90,6 +91,10 @@ h2 {
 
 .product-section {
   background-color: #7db96f;
+  text-align: center;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 50px;
 }
 
 .article img {
@@ -103,6 +108,10 @@ article {
   padding-top: 38px;
   padding-bottom: 32px;
   margin-bottom: 44px;
+  color: black;
+  text-align: left;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 
 article a {
