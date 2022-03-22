@@ -222,6 +222,21 @@ footer div {
   width: 245px;
 }
 
+.other-products {
+  background-color: #d0f1ae;
+  text-align: center;
+}
+
+.article-products {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.other-products img {
+  width: 55px;
+}
+
 /* font-family: 'Maven Pro', sans-serif; */
 /* font-family: 'Quattrocento', serif; */
 /* font-family: 'Sriracha', cursive; */
