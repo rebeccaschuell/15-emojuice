@@ -192,6 +192,26 @@ footer div {
   margin-bottom: 45px;
 }
 
+.kiwi-syrup {
+  background-color: #d0f1ae;
+  text-align: center;
+}
+
+.kiwi-syrup h1 {
+  font-family: 'Sriracha', cursive;
+}
+
+.kiwi-syrup img {
+  width: 100px;
+  
+}
+
+.kiwi-syrup p {
+  font-size: 16px;
+  font-family: 'Quattrocento', serif;
+
+}
+
 /* font-family: 'Maven Pro', sans-serif; */
 /* font-family: 'Quattrocento', serif; */
 /* font-family: 'Sriracha', cursive; */
