@@ -123,6 +123,11 @@ article a {
   font-size: 14px;
 }
 
+article p {
+  opacity: 50%;
+  font-family: 'Quattrocento', serif;
+}
+
 article h1 {
   font-family: 'Sriracha', cursive;
   font-size: 30px;
@@ -136,11 +141,9 @@ article h1 {
   background-color: #d0f1ae;
 }
 
-
 .coffee-section {
   background-color: #cdc4b0;
 }
-
 
 .strawberry-section {
   background-color: #e2a2b1;
@@ -149,7 +152,8 @@ article h1 {
 .container {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-self: flex-end;
 }
 
 footer {
@@ -203,7 +207,6 @@ footer div {
 
 .kiwi-syrup img {
   width: 100px;
-  
 }
 
 .kiwi-syrup p {
@@ -233,6 +236,7 @@ footer div {
   justify-content: space-between;
   align-items: center;
 }
+
 .other-products img {
   width: 55px;
 }
