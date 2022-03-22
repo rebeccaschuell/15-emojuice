@@ -209,7 +209,17 @@ footer div {
 .kiwi-syrup p {
   font-size: 16px;
   font-family: 'Quattrocento', serif;
+}
 
+.about-kiwis {
+  background-color: #7db96f;
+  color: white;
+  padding-right: 68px;
+  padding-left: 68px;
+}
+
+.about-kiwis img {
+  width: 245px;
 }
 
 /* font-family: 'Maven Pro', sans-serif; */
