@@ -227,13 +227,18 @@ footer div {
 
 
 
-.kiwi-syrup {
-  background-color: #d0f1ae;
-  text-align: center;
-}
-
 .kiwi-syrup h1 {
   font-family: 'Sriracha', cursive;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.round {
+  background-color: white;
+  padding: 32px;
+  border-radius: 50%;
+  margin: 30px 50px;
+  box-shadow: 0 0 10px #00000075;
 }
 
 .kiwi-syrup img {
@@ -243,7 +248,50 @@ footer div {
 .kiwi-syrup p {
   font-size: 16px;
   font-family: 'Quattrocento', serif;
+  color: black;
+  opacity: 50%;
+  margin-top: 0px;
+  margin-bottom: 40px;
 }
+
+
+
+
+
+
+
+.kiwi-header {
+  background-image: url(../img/header_photo.webp);
+  margin-bottom: 18px;
+  text-align: center;
+  border-top: 8px solid #7db96f;
+  margin-top: 0px;
+}
+
+.kiwi-header div {
+    background-color: #ffffffdd;
+    margin: 30px;
+    padding-top: 36px;
+    padding-bottom: 28px;
+    padding-left: 58px;
+    padding-right: 58px;
+  }
+  
+  .kiwi-header p {
+    color: #7db96f;
+    margin: 0px;
+  }
+
+.kiwi-syrup {
+  background-color: #d0f1ae;
+  text-align: center;
+  padding: 50px;
+}
+
+
+
+
+
 
 .about-kiwis {
   background-color: #7db96f;
@@ -254,11 +302,11 @@ footer div {
 
 .about-kiwis img {
   width: 245px;
+  text-align: center;
 }
 
 .other-products {
   background-color: #d0f1ae;
-  text-align: center;
 }
 
 .article-products {
