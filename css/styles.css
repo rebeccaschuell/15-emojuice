@@ -70,6 +70,9 @@ header p {
 
 .presentation h2 {
   margin-top: 96px;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
 }
 
 .fruits-container {
@@ -90,9 +93,12 @@ p {
   margin-bottom: 38px;
 }
 
-h2 {
+.product-section h2 {
   font-family: 'Maven Pro', sans-serif;
   font-weight: bold;
+  font-size: 26px;
+  margin-top: 0px;
+  margin-bottom: 35px;
 }
 
 .product-section {
@@ -103,21 +109,33 @@ h2 {
   padding-bottom: 50px;
 }
 
-.article img {
-width: 80px;
+article {
+  border-radius: 15px;
+  padding: 38px 38px 32px 38px;
+  margin: 0 30px 44px 30px;
+  text-align: left;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  box-shadow: 0 0 10px #00000075;
 }
 
-article {
-  border-radius: 22px;
-  padding-left: 38px;
-  padding-right: 38px;
-  padding-top: 38px;
-  padding-bottom: 32px;
-  margin-bottom: 44px;
+article h1 {
+  font-family: 'Sriracha', cursive;
+  font-weight: lighter;
+  font-size: 30px;
+  margin: 0px;
+}
+
+article p {
   color: black;
-  text-align: left;
-  margin-right: 30px;
-  margin-left: 30px;
+  opacity: 50%;
+  font-family: 'Quattrocento', serif;
+  font-weight: lighter;
+  margin-bottom: 48px;
 }
 
 article a {
@@ -127,14 +145,8 @@ article a {
   font-size: 14px;
 }
 
-article p {
-  opacity: 50%;
-  font-family: 'Quattrocento', serif;
-}
-
-article h1 {
-  font-family: 'Sriracha', cursive;
-  font-size: 30px;
+.article img {
+width: 80px;
 }
 
 .banana-section {
@@ -151,7 +163,18 @@ article h1 {
 
 .strawberry-section {
   background-color: #e2a2b1;
+  margin-bottom: 0px;
 }
+
+
+
+
+
+
+
+
+
+
 
 .container {
   display: flex;
@@ -185,7 +208,7 @@ footer {
   text-decoration: none;
 }
 
-footer h1 {
+footer h2 {
   font-family: 'Maven Pro', sans-serif;
   font-size: 26px;
 }
