@@ -14,7 +14,7 @@ body {
   margin-bottom: 28px;
   text-align: center;
   border-top: 8px solid #7db96f;
-  margin-top: 28px;
+  margin-top: 0px;
 }
 
 header div {
@@ -35,6 +35,7 @@ header p {
   padding: 10px 15px;
   border-radius: 15px;
   font-family: 'Maven Pro', sans-serif;
+  font-weight: lighter;
   font-size: 20px;
   margin-bottom: 5px;
 }
@@ -166,40 +167,31 @@ width: 80px;
   margin-bottom: 0px;
 }
 
-
-
-
-
-
-
-
-
-
-
-.container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-self: flex-end;
-}
-
 footer {
   color: #7db96f;
   text-align: center;
-  margin-left: 68px;
-  margin-right: 68px;
+  margin: 0 68px;
+}
+
+footer h2 {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 26px;
+  margin-top: 38px;
+  margin-bottom: 35px;
 }
 
 .button-site {
   background-color: #7db96f;
   color: white;
   text-decoration: none;
+  margin-bottom: 18px;
 }
 
 .button-instagram {
   background-color: #7db96f;
   color: white;
   text-decoration: none;
+  margin-bottom: 18px;
 }
 
 .button-facebook {
@@ -208,20 +200,32 @@ footer {
   text-decoration: none;
 }
 
-footer h2 {
-  font-family: 'Maven Pro', sans-serif;
-  font-size: 26px;
-}
-
-footer p {
-  font-size: 12px;
-  margin-bottom: 40px;
-  margin-top: 76px;
-}
-
 footer div {
-  margin-bottom: 45px;
+  font-size: 12px;
+  margin-top: 74px;
+  margin-bottom: 38px;
+  font-family: 'Maven Pro', sans-serif;
 }
+
+.fruits-container-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px;
+  margin-bottom: 46px;
+}
+
+.fruits-container-footer img {
+  width: 28px;
+  height: auto;
+}
+
+
+
+
+
+
+
 
 .kiwi-syrup {
   background-color: #d0f1ae;
@@ -266,6 +270,18 @@ footer div {
 
 .other-products img {
   width: 55px;
+}
+
+
+
+
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-end;
 }
 
 /* font-family: 'Maven Pro', sans-serif; */
