@@ -254,6 +254,41 @@ footer div {
   margin-bottom: 40px;
 }
 
+.about-kiwis {
+  background-color: #7db96f;
+  color: white;
+  padding-right: 68px;
+  padding-left: 68px;
+}
+
+.about-kiwis h2 {
+  font-family: 'Maven Pro', sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 62px;
+  padding-bottom: 54px;
+}
+
+.about-kiwis p {
+  margin-top: 0px;
+  margin-bottom: 28px;
+}
+
+.about-kiwis figure img {
+  width: 239px;
+}
+
+.about-kiwis h3 {
+  margin-top: 26px;
+  font-weight: normal;
+}
+
+.about-kiwis ul {
+  padding-bottom: 56px;
+  margin-bottom: 0px;
+  font-weight: lighter;
+}
+
 
 
 
@@ -293,17 +328,6 @@ footer div {
 
 
 
-.about-kiwis {
-  background-color: #7db96f;
-  color: white;
-  padding-right: 68px;
-  padding-left: 68px;
-}
-
-.about-kiwis img {
-  width: 245px;
-  text-align: center;
-}
 
 .other-products {
   background-color: #d0f1ae;
