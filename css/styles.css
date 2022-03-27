@@ -3,17 +3,18 @@ html {
 }
 
 body {
-  margin-left: 30px;
-  margin-right: 30px;
+  max-width: 380px;
   margin: auto;
+  border-top: 8px solid #7db96f;
 }
 
 .site-header {
   background-image: url(../img/header_photo.webp);
+  background-size: cover;
   margin-bottom: 28px;
   text-align: center;
-  border-top: 8px solid #7db96f;
   margin-top: 28px;
+  color: #7db96f;
 }
 
 header div {
