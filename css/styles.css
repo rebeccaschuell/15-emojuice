@@ -1,3 +1,7 @@
+/* font-family: 'Maven Pro', sans-serif; */
+/* font-family: 'Quattrocento', serif; */
+/* font-family: 'Sriracha', cursive; */
+
 html {
   scroll-behavior: smooth;
 }
@@ -291,9 +295,10 @@ footer div {
 
 
 
-
-
-
+.other-products .button {
+  margin-bottom: 48px;
+  margin-top: 28px;
+}
 
 .kiwi-header {
   background-image: url(../img/header_photo.webp);
@@ -303,16 +308,7 @@ footer div {
   margin-top: 0px;
 }
 
-.kiwi-header div {
-    background-color: #ffffffdd;
-    margin: 30px;
-    padding-top: 36px;
-    padding-bottom: 28px;
-    padding-left: 58px;
-    padding-right: 58px;
-  }
-  
-  .kiwi-header p {
+.kiwi-header p {
     color: #7db96f;
     margin: 0px;
   }
@@ -333,29 +329,28 @@ footer div {
   background-color: #d0f1ae;
 }
 
-.article-products {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+.other-products h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 45px;
+  padding-bottom: 38px;
+  font-family: 'Maven Pro', sans-serif;
+  text-align: center;
 }
 
 .other-products img {
   width: 55px;
 }
 
-
-
-
-
-
-.container {
+.article-products {
+  box-shadow: 0 0 10px #00000075;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  align-self: flex-end;
+  align-items: flex-end;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 15px;
+  width: 152px
 }
-
-/* font-family: 'Maven Pro', sans-serif; */
-/* font-family: 'Quattrocento', serif; */
-/* font-family: 'Sriracha', cursive; */
